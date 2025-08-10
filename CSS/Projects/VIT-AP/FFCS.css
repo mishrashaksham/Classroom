@@ -1,0 +1,59 @@
+header{
+    background-color: #650010;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+}
+
+header a{
+    color: antiquewhite;
+    border: #62dff0;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #62dff0;
+}
+
+main{
+    text-align: center;
+    color: #650010;
+    font-family: Montserrat,sans-serif;
+}
+input[placeholder]{
+    font-size: small;
+    text-align: center;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: white;
+}
+main b{
+    font-family: Emilio Test,serif;
+    font-weight: 900;
+}
+select option{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="checkbox"]:checked{
+    color: #650010;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:active{
+    background-color: #650010;
+    color: white;
+    font-family: Roboto;
+}
+button:hover{
+    background-color: #bc827c;
+    color: #f3eed9;
+
+}
+input{
+    color: white;
+    background-color: #650010;
+}
+form>div:hover, div:hover{
+    background-color: #70a3ff;
+    color: #9e3c3a;
+}

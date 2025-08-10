@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_box{
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.logo{
+    height: 100px;
+}
+#check{
+    position: fixed;
+    opacity: 0;
+    top: -10px;
+}
+.btn_one i{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 50px;
+    transition: all 1s;
+}
+.sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0px 6px rgba(255, 255, 255, 0.5);
+    transition: all 1s linear;
+}
+.logo{
+    width: 100%;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    position: absolute;
+    left: 40px;
+}
+.logo{
+    box-shadow: 0 0px 6px rgba(255, 255, 255, 0.5);
+}
+
+.btn_two{
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    left: 275px;
+    line-height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+
+}
+.menu i{
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+    padding: 8px;
+}
+.sidebar_menu .menu ul{
+    width: 100%;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+}
+.menu ul li{
+    transition: all 1s;
+}
+.menu li:hover{
+    box-shadow: 0 0px 4px rgba(255, 255, 255, 0.5);
+    font-size: 35px;
+}
+.menu ul{
+    position: absolute;
+    top: 100px;
+}
+.social_media a{
+    text-decoration: none;
+    color: white;
+}
+.social_media{
+    font-size: 20px;
+    position: absolute;
+    left: 25%;
+    color: white;
+    bottom: 20px;
+}
+.social_media i{
+    opacity: 0.5;
+    transition: all 1s;
+
+}
+.btn_one:hover{
+    font-size: 40px;
+}
+.btn_two:hover{
+    font-size: 30px;
+}
+.social_media i:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.sidebar_menu{
+    left: -300px;
+}
+#check:checked~.sidebar_menu{
+    left: 0;
+}
+#check:checked~.btn_one{
+    opacity: 0;
+}

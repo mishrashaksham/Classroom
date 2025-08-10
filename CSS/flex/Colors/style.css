@@ -1,0 +1,22 @@
+#container{
+    height: 400px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#container>div{
+    height: 100px;
+    width: 300px;
+    color: azure;
+    text-align: center;
+    font-size: large;
+    transition: 1s;
+}
+#container>div:hover{
+    background-color: antiquewhite;
+    color: black;
+}

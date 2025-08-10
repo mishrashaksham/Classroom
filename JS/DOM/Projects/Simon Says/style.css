@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    margin: 2.5rem;
+    border: solid black 5px;
+    border-radius: 20%;
+}
+
+.line-one{
+    display: flex;
+    justify-content: center;
+}
+
+.line-two{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+.blue{
+    background-color: rgba(00, 00, 255, 1);
+}
+
+.green{
+    background-color: rgba(000, 255, 000, 1);
+}
+
+.red{
+    background-color: rgba(255, 000, 0, 1);
+}
+
+.flash{
+    background-color: white;
+}

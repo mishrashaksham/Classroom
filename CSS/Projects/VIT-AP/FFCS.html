@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="FFCS.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFCS Freshers</title>
+</head>
+<body>
+    <header>
+        <div>
+            <H1 id="Heading">VIT-AP</H1>
+            <h5>Vellore Institute of Technology - Andhra Pradesh (Amravathi) </h5>
+        </div>
+        <nav>
+            <a href="/home"><b>Home</b></a>
+            <a href="/about"><b>About Us</b></a>
+            <a href="/Academics"><b>Academics</b></a>
+            <a href="/ffcs.html"><b><u>FFCS</u></b></a>
+            <a href="/Contacts"><b>Contacts</b></a>
+        </nav>
+    </header>
+    <main>
+        <h2>FFCS</h2>
+        <i><h3>Fill the required infortmations</h3></i>
+        <hr>
+        <form action="/server">
+            <div>
+                <input type="text" name="Name" id="Name" placeholder="ENTER YOUR NAME"><label for="Name">
+                    <br>Name</label></input>
+            </div>
+            <div>
+                <b>Select course</b><br>
+            <select name="course" id="course">
+                <option value="Select">Select your course</option>
+                <option value="bt">BTECH</option>
+                <option value="bs">BSC</option>
+                <option value="ba">BA-LLB</option>
+                <option value="int">INT BTECH-MTECH</option>
+            </select>
+            </div>
+            <b>Select 6 Subjects &#128071; </b>
+            <div>
+            <label for="subm"><i>Select any one English</i></label>
+            <select name="subm" id="subn">
+                <option >Select</option>
+                <option value="baseng">Basic English</option>
+                <option value="adveng">Advance English</option>
+            </select>
+            </div>
+            <div>
+            <label for="subn"><i>Select any one Maths</i></label>
+            <select name="subn" id="subn">
+                <option >Select</option>
+                <option value="disc">Dicrete Mathematics</option>
+                <option value="engm">Enginnering Maths</option>
+            </select>
+            </div>
+            <div>
+                <input type="checkbox" name="sub" id="Env" value="Env"><label for="Env">Environmental Science</label></input>
+            <input type="checkbox" name="sub" id="EEE" value="EEE"><label for="EEE">Enginnering Electronics</label></input>
+            <input type="checkbox" name="sub" id="chem" value="chem"><label for="chem">Enginnering Chemistry</label></input>
+            <input type="checkbox" name="sub" id="bys" value="bys"><label for="bys">Buisness Systems</label></input>
+            </div>
+            <div>
+                <input type="text" name="un" id="un" placeholder="USERNAME"><label for="un">
+                    <br> User Name</label></input><br>
+             <input type="password" name="pass" id="passs" placeholder="PASSWORD"><label for="pass">
+                <br>password</label></input><br>
+            <input type="checkbox" name="fee" id="fee"><label for="fee">All of my dues are clear</label></input><br>
+            <button type="submit">Submit</button>
+            <hr>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <b><i><i>Made with &hearts; by Shaksham</i></i></b>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.pricing{
+    text-align: center;
+}
+.row{
+    justify-content: space-around;
+}
+.card-body h5.card-title{
+    background-color: rgba(255, 255, 255, 0);
+}
+.card-body{
+    padding-top: 1px;
+}

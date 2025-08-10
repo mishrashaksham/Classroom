@@ -1,0 +1,151 @@
+header{
+    text-align: center;
+    font-family: Roboto;
+    color: #650010;
+    height: 200px;
+    padding-top: 100px;
+    background-image: url(UNDERGRADUATE.png);
+}
+header:hover{
+    background-color: white;
+    color:  #650010;
+}
+
+div#about{
+    margin: 5%;
+}
+div#about>h2{
+    font-size: 35px;
+    font-family: Roboto;
+    color: #650010;
+    font-weight: 650;
+}
+p.about{
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.5;
+}
+button#applyButton{
+    padding: 12px 24px;
+    font-size: 20px;
+    font-family: Roboto;
+    background-color: #650010;
+    color: white;
+    text-decoration: none;
+    border: none;
+    transition-duration: 1s;
+    box-shadow: 2px 2px 8px black;
+}
+button#applyButton:hover{
+    background-color: rgb(238, 210, 210);
+    color: #650010;
+    border: none;
+    box-shadow: 4px 4px 16px black;
+}
+
+div#morePara{
+    margin: 5%;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+}
+div#morePara>h2.natH{
+    font-family: Roboto;
+    color: #650010;
+    font-size: 32px;
+    font-weight: 700;
+}
+h3#natH{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: roboto;
+    color: #650010;
+}
+ul#natList{
+    list-style-type: none;
+    line-height: 2;
+}
+h3.age{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: roboto;
+    color: #650010;
+}
+ul#age{
+    list-style-type: none;
+    line-height: 2;
+}
+#appnProc{
+    background-color: rgb(230 207 207/var(--tw-bg-opacity,1));
+    padding: 30px;
+    line-height: 2;
+    margin: 100px;
+}
+#appnProc>h2{
+    font-size: 32px;
+    font-family: Emilio Test,serif;
+}
+.appP{
+    font-size: 18px;
+    font-family: Montserrat,sans-serif;
+}
+button#kAbtBtn{
+    background-color: #650010;
+    font-size: 24px;
+    font-family: Emilio Test,serif;
+    height: 80px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    border: none;
+    text-decoration: none;
+}
+button#kAbtBtn>p{
+    text-align: right;
+    display: inline;
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 1s;
+}
+button#kAbtBtn:hover{
+    box-shadow: 4px 4px 16px black;
+    background-color: white;
+    color: #650010;
+}
+span>h3{
+    display: inline;
+}
+div#feess{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #650010;
+    margin: 10px auto;
+    background-color: rgb(255 233 235);
+}
+p#fee{
+    padding-bottom: 45px;
+    color: rgb(101, 0, 16);
+    font-weight: 700;
+    font-family: Emilio Test, serif;
+    font-size: 48px;
+    margin: 5%;
+}
+#feess{
+    padding: 50px;
+}
+#abc{
+    color: #ffffff;
+    background-color: #650010;
+    width: 400px;
+    height: 400px;
+    box-shadow: 4px 4px 8px black;
+    transition-duration: 1s;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#abc:hover{
+    box-shadow: 8px 8px 16px black;
+    font-size: 30px;
+}
